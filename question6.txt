@@ -1,0 +1,44 @@
+Question : What are IDs and classes in HTML, and how do they differ?
+
+ Solution: 
+ In HTML, IDs and classes are both attributes used to assign identifiers to HTML elements.
+  They help with styling and scripting, especially when using CSS or JavaScript to target specific elements on a webpage.
+
+  id : 
+  1. Unique--> An id should be unique within a page. It is used to identify a single element, meaning no two elements should share the same id value.
+
+  2.Use in CSS:-->  You reference an id in CSS by prefixing it with a # symbol.
+
+  3.Use in JavaScript: You can easily select an element by its id using document.getElementById().
+
+  Example : 
+  <div id="header">This is a header</div>
+
+
+  in css file -->
+#header {
+    background-color: blue;
+    color: white;
+}
+
+in js file --> 
+let header = document.getElementById('header');
+
+
+class : 
+1. Non-unique --> A class can be shared by multiple elements. 
+This allows you to apply the same style or behavior to multiple elements at once.
+
+2.Use in CSS: You reference a class in CSS by prefixing it with a . (dot) symbol.
+
+3. Usage in JavaScript: You can select elements by their class using methods like document.getElementsByClassName().
+
+
+  difference between id and class --->
+               id                                            class
+   Unique   to one element per page	              Can be applied to multiple elements
+       Prefixed with # in CSS (#header)	           Prefixed with . in CSS (.section)
+Purpose	Used for targeting a single element	       Used for targeting multiple elements
+JavaScript	document.getElementById('id')	        document.getElementsByClassName('class')
+
+

@@ -1,0 +1,31 @@
+
+
+
+
+Question: What is semantic HTML? List some semantic and non-semantic elements.
+
+Solution : 
+
+Semantic HTML refers to the use of HTML elements that have meaningful names, making the structure of the webpage easier to understand for both developers and browsers. These elements describe the content they enclose in a way that is clear, accessible, and provides additional context for the content. This improves search engine optimization (SEO), accessibility, and maintainability of the website.
+Semantic HTML Elements:
+
+These elements clearly describe their purpose and the content inside them.
+
+    <header> – Represents the introductory content or a group of navigational links.
+    <article> – Defines a piece of content that can stand on its own, like a blog post or news article.
+    <section> – Represents a section of content, typically within an article, related to a particular topic.
+    <nav> – Defines navigation links.
+    <footer> – Represents the footer of the document or a section, containing information like copyright or contact info.
+
+
+
+    Non-Semantic HTML Elements:
+
+These elements don't provide specific meaning about their content, only that they structure the page.
+   Examples of non -semantic elements.
+
+    <div> – A generic container used to group content, but doesn't tell anything about the content's purpose.
+    <span> – A generic inline container for grouping content, without giving it any specific meaning.
+    <b> – Represents bold text, but doesn’t describe the importance of the text.
+    <i> – Represents italic text, but doesn’t describe the content’s purpose.
+    <u> – Represents underlined text, again with no semantic meaning.

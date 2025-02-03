@@ -1,0 +1,26 @@
+Question 5: Why do we use meta tags?
+
+Solution: 
+
+Meta tags are used in the <head> section of an HTML document to provide metadata about the webpage. 
+Metadata is information about the page that isn't necessarily displayed to users but is used by browsers, search engines
+, and other web services. These tags help optimize and improve the functionality of the webpage in a variety of ways.
+
+  in other words we can say that it is data abut data . 
+
+1. Search engine optimisation : 
+         Meta tags can help search engines understand the content of your page. 
+         For example:
+
+          <meta name="description" content="this is discription of the page">
+            it helps search engines display a snippet of the content when the page appears in search results.
+
+2. Character Set Specification:
+       <meta charset="UTF-8"> tag specifies the character encoding for the page.
+
+
+3.Viewport Configuration:
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"> tag is essential for responsive web design, and scale according to screen size.
+
+4. Author and Copyright Information:
+     <meta name="author" content="John Doe"> or <meta name="copyright" content="2025 Company Name"> provide information about the author or copyright details for the page.
